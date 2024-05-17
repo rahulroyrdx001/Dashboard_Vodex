@@ -1,0 +1,313 @@
+.mainhome{
+    height: 100vh;
+    width: 100%;
+    background: #FF8744;
+    margin: 0px;
+    padding: 0px;
+}
+.bgimg{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+.wholewrap{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    z-index: 2;
+}
+.element1{
+    background: #3D4960;
+    opacity: 0.6;
+    height: 905px;
+    width: 905px;
+    border-radius: 50%;
+    position: relative;
+    top: -115%;
+    left: 20%;
+    
+
+}
+.element2{
+    background: #0F1B31;
+    opacity: 0.6;
+    height: 695px;
+    width: 695px;
+    border-radius: 50%;
+    position: relative;
+    top: -222%;
+    left: 27%;
+    
+
+}
+
+
+.mytext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal; 
+}
+h3{
+    font-size: 4vw;
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+h4{
+    font-size: 4vw;
+    margin: 5%;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(90deg, #891CF1, #1ECCFF);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+}
+.mygrad{
+ 
+  /* Create the gradient. */
+  background-image: linear-gradient(90deg, #FF4D00, #FFA06B);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+p{
+    margin: 2px;
+    padding: 3px;
+    font-size: 2vw;
+    
+}
+
+.mybutton{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.mybuttonn{
+    background: #FF4D00;
+    height: 44px;
+    width: 217px;
+    margin-left: 10px;
+    transition: transform .2s;
+    color: aliceblue;
+    border-color: #FF8744;
+    border-radius: 10px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal; 
+}
+.mybuttonn:hover{
+    transform: scale(1.03);
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.phonesty{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 8vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 15%;
+    
+    
+}
+h6{
+    font-size: 10vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* left: 15%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+     /* Create the gradient. */
+  background-image: linear-gradient(45deg, #FF4D00, #FFA06B);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+    
+    
+}
+
+
+.respoimg{
+    height: 50%;
+    width: 50%;
+    position: relative;
+    right: -2%;
+    
+}
+
+
+.finaldiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales{
+    font-size: 12vw;
+    font-weight: bold;
+    position: relative;
+    left: 13vw;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    animation-name: fadeup;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+     
+  /* Create the gradient. */
+  background-image: linear-gradient(90deg, #FF4D00, #FFA06B);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.agent{
+    font-size: 12vw;
+    position: relative;
+    right: 10vw;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    animation-name: fadeup;
+    animation-duration: 2s;
+     
+    /* Create the gradient. */
+    background-image: linear-gradient(90deg, #FF4D00, #FFA06B);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.insidephone{
+    height: auto;
+    width: 20vw;
+    background: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.callback{
+    background: #FF4D00;
+    height: 5vh;
+    width: 100%;
+    transition: transform 0.2s;
+    color: aliceblue;
+    border-color: #FF8744;
+    border-radius: 10px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal; 
+}
+.callback:hover{
+    transform: scale(1.03);
+}
+.talkbottx{
+    font-size: 24px;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.myrobo{
+
+    position: relative;
+    top: -50px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 20px); }
+    100%   { transform: translate(0, -0px); }
+}
+@keyframes fadeup {
+    0% {opacity: 0; transform: translate(30px),scale(0.9); }
+    50% {opacity: 0; transform: translate(15px),scale(1); }
+    100% {opacity: 1; transform: translate(0px),scale(1); }
+}
