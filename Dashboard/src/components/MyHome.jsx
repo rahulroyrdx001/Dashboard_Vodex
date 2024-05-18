@@ -2,6 +2,7 @@ import style from "../styling/homestyling.module.css";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import myrobo from "../assets/robo2.png";
+import yclogo from "../assets/yourcompany.png";
 
 function MyHome() {
   return (
@@ -9,20 +10,24 @@ function MyHome() {
       <div className={style.wholewrap}>
         <div className={style.textStylle}>
           <span className={style.mytext}>
-            <h4>YOUR SITE</h4>
-            <h3>
+            <h4 className={style.myh4}>
+              {" "}
+              <img className={style.yclogo} src={yclogo} alt="" />
+              YOUR SITE
+            </h4>
+            <h3 className={style.myh3}>
               SpanGet 2X Revenue With{" "}
               <span className={style.mygrad}> Gen A.I. Powered</span>
             </h3>
-            <h3>
+            <h3 className={style.myh3}>
               <span className={style.mygrad}>Sales Agent</span> To Your
               Customers
             </h3>
-            <p>
+            <p className={style.myptag}>
               Connect with 10,000 customers in 1 hour with real-time data
               insight, revolutionizing business
             </p>
-            <p>Outrach with AI human synergy</p>
+            <p className={style.myptag2}>Outrach with AI human synergy</p>
           </span>
           <div className={style.mybutton}>
             <button className={style.mybuttonn}>VISIT OUR WEBSITE</button>

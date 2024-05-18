@@ -1,9 +1,12 @@
 .mainhome{
     height: 100vh;
     width: 100%;
-    background: #FF8744;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
 }
 .bgimg{
     height: 100vh;
@@ -18,16 +21,64 @@
     margin-top: 10%;
     z-index: 2;
 }
+.mainlogotxt{
+    font-size: 1vw;
+    
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(90deg, #891CF1, #1ECCFF);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.loginbtn{
+    background: #FF4D00;
+    float: right;
+    height: 40px;
+    width: 155px;
+    margin-left: 10px;
+    transition: transform .4s;
+    color: aliceblue;
+    border-color: #FF8744;
+    border-radius: 32px;
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.loginbtn:hover{
+    transform: scale(1.03);
+}
+.adjustnav{
+    display: flex;;
+    justify-content: center;
+}
+
 .element1{
     background: #3D4960;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 0.6;
-    height: 905px;
-    width: 905px;
+    height: 1005px;
+    width: 1005px;
     border-radius: 50%;
     position: relative;
-    top: -115%;
-    left: 20%;
-    
+    top: -120%;
+    left: 18%;
 
 }
 .element2{
@@ -37,10 +88,108 @@
     width: 695px;
     border-radius: 50%;
     position: relative;
-    top: -222%;
-    left: 27%;
-    
+}
+.element3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -225%;
+    left: 1.5%;
+}
+.ele3tittle{
+    font-size: 6vw;
+    line-height: 95px;
+    color: #FFFFFF;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.ele3subtittle{
+    font-size: 20px;
+    line-height:26px;
+    color: #FF4D00;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.reffer{
+    color: #FF4D00;
+    font-size: 20px;
+    line-height:26px;
+    color: #FF4D00;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+a{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+}
+.ele3button{
+    background: #FF4D00;
+    height: 40px;
+    width: 259px;
+    margin-top: 50px;
+    margin-left: 10px;
+    transition: transform .2s;
+    color: aliceblue;
+    border-color: #FF8744;
+    border-radius: 32px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 
+}
+.ele3button:hover{
+    transform: scale(1.03);
+}
+.element4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 161px;
+    width: 161px;
+    background: #FF4D00;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    top:-285%;
+    left: 80%;
+    
+    
+}
+.element4:hover{
+    background: #ffa500;
+    box-shadow: 0 0 50px #FFFFA5;
+    transform: scale(1.03);
+}
+.promo{
+    font-size: 1vw;
+    color: #FFFFFF;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.wlogo{
+    
+        position: relative;
+        top: -50px;
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    
+    
 }
 
 
@@ -53,7 +202,7 @@
     font-weight: 800;
     font-style: normal; 
 }
-h3{
+.myh3{
     font-size: 4vw;
     margin: 0;
     font-family: "Mulish", sans-serif;
@@ -62,9 +211,14 @@ h3{
     font-style: normal;
 
 }
-h4{
+.myh4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 4vw;
-    margin: 5%;
+    margin: 2%;
+    margin-top: -50px;
+    margin-bottom: 50px;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -85,6 +239,9 @@ h4{
   -moz-text-fill-color: transparent;
 
 }
+.yclogo{
+    height: 11vh;
+}
 .mygrad{
  
   /* Create the gradient. */
@@ -101,8 +258,15 @@ h4{
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-p{
-    margin: 2px;
+.myptag{
+    margin-top: 50px;
+    padding: 3px;
+    font-size: 2vw;
+    
+}
+.myptag2{
+    margin-top: -30px;
+    margin-bottom: 30px;
     padding: 3px;
     font-size: 2vw;
     
@@ -112,6 +276,7 @@ p{
     display: flex;
     justify-content: center;
     padding: 5px;
+    margin-bottom: 30px;
     
 }
 .mybuttonn{
